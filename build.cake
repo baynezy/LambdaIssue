@@ -36,7 +36,9 @@ Task("Net6-Fix")
             NoRestore = false,
             NoBuild = false,
             Configuration = configuration,
-            OutputDirectory = publishSourceLocation
+            OutputDirectory = publishSourceLocation,
+            SelfContained = true,
+            Runtime = "linux-x64"
         });
     });
 
