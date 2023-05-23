@@ -1,5 +1,11 @@
 # Lambda issue
 
+## Background
+
+I was having issues deploying the Lambda ASP.NET Core Minimal API template to AWS Lambda.
+
+The related issues is https://github.com/aws/aws-lambda-dotnet/issues/1512
+
 ## Reproduce Issue
 
 1. Clone this repo
@@ -32,3 +38,7 @@ Failed to run as a self-contained app.
 START RequestId: a73fb0a1-d2a0-41c2-90a4-44964414e26d Version: $LATEST
 RequestId: a73fb0a1-d2a0-41c2-90a4-44964414e26d Error: Runtime exited with error: exit status 131
 ```
+
+## Resolution
+
+If you want to see how it was resolved then checkout the [`resolved` branch](https://github.com/baynezy/LambdaIssue/tree/resolution).
